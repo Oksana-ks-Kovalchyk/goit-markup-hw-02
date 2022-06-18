@@ -103,6 +103,7 @@ body {
     color:var(--accent-txt-cl);
 }
 
+.footer-contact,
 .header-contact {
     font-weight: 500;
     font-size: 14px;
@@ -119,10 +120,11 @@ body {
 .header-contact:hover,
 .header-contact:focus {
     color: var(--accent-txt-cl);
-
-
 }
 
+.hero {
+    background-color: #2F303A;
+}
 
 /* .header-group:hover,
 .header-group:focus {
