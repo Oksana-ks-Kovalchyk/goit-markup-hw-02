@@ -1,0 +1,142 @@
+/* .header-link {
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 10px;
+    line-height: 20px;
+    letter-spacing: normal;
+    word-spacing: 30px;
+    text-shadow: 3 px 5px 0px rgba(0,0,0,0.5);
+
+} */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    /* color: #757575; */
+
+}
+
+:root {
+    /* fonts */
+    --main-font:"Roboto";
+    --secondary-font: "Raleway"
+
+    /* text colors */
+
+    --accent-color: #2196F3;
+    
+    --accent-txt-cl:#2196f3;
+    --black-txt-cl: #212121;
+    --white-txt-cl: #FFFFFF;
+    --main-txt-cl: #757575;
+
+
+
+    /* bg-colors */
+
+    /* others */
+
+}
+
+/* common styles start */
+
+.link {
+    text-decoration: none;
+
+}
+
+.list {
+    list-style: none;
+
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-txt-cl);
+    color: var(--white-txt-cl);
+}
+
+.btn-mode-light {
+    color: var(--black-txt-cl);
+}
+
+
+.btn-mode-dark {
+    color:var(--white-txt-cl);
+}
+
+
+
+
+/* common styles end */
+
+/* Header section */
+.header {
+    background-color: #FFFFFF;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--black-txt-cl);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color:var(--accent-txt-cl);
+}
+
+.header-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color:var(--main-txt-cl);
+}
+
+.header-contact {
+    display: flex;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-txt-cl);
+
+
+}
+
+
+/* .header-group:hover,
+.header-group:focus {
+    color: #2196F3;
+} */
+
+
+
+
+
+/* logo */
+.logo {
+    font-family: Raleway, sans-serif;
+}
+    
+
+    
